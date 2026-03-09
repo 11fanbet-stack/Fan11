@@ -8,9 +8,8 @@
 
 body{
 margin:0;
-padding:0;
-font-family:Arial, sans-serif;
-background:linear-gradient(135deg,#ff3d3d,#ff0000);
+font-family:Arial;
+background:linear-gradient(135deg,#ff0000,#8b0000);
 height:100vh;
 display:flex;
 justify-content:center;
@@ -18,43 +17,42 @@ align-items:center;
 }
 
 .container{
+background:white;
+padding:40px;
+border-radius:15px;
 text-align:center;
-color:white;
+width:350px;
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
 }
 
 .logo{
-font-size:60px;
-font-weight:bold;
-margin-bottom:10px;
+width:120px;
+margin-bottom:15px;
 }
 
 .tagline{
-font-size:20px;
-margin-bottom:40px;
+color:#555;
+margin-bottom:25px;
 }
 
-.buttons button{
-width:160px;
-padding:15px;
-margin:10px;
+button{
+width:100%;
+padding:12px;
+margin-top:10px;
 border:none;
-border-radius:10px;
-font-size:18px;
+border-radius:8px;
+font-size:16px;
 cursor:pointer;
 }
 
 .login{
-background:white;
-color:red;
-}
-
-.register{
-background:black;
+background:#ff0000;
 color:white;
 }
 
-button:hover{
-opacity:0.8;
+.register{
+background:#333;
+color:white;
 }
 
 </style>
@@ -65,23 +63,21 @@ opacity:0.8;
 
 <div class="container">
 
-<h1 class="logo">Fan11</h1>
+<img src="images/fan11.jpeg" class="logo">
+
+<h2>Fan11</h2>
 
 <p class="tagline">
-Create your fantasy team and win real cash
+Play Fantasy Sports & Win Real Cash
 </p>
-
-<div class="buttons">
 
 <a href="login.html">
 <button class="login">Login</button>
 </a>
 
 <a href="register.html">
-<button class="register">Register</button>
+<button class="register">Create Account</button>
 </a>
-
-</div>
 
 </div>
 
